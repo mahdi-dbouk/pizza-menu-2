@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaHut Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="top-nav">
+                <div class="logo-div">
+                    <img id="logo-image" src="https://www.jeddah.pizzahut.me/assets/Images/pizzahut-desktop-logo.svg" alt="pizzahut logo">
+                </div>
+                <div class="location-register-div">
+                    <img id="location-image" src="images/location.svg" alt="location-svg">
+                    <a id="location-text" href="#location">Choose Location</a>
+                    <img id="account-image" src="images/Account.svg" alt="account-svg">
+                    <a id="account-text" href="#sign-in">SIGN IN</a>
+                    <p id="separator"> / </p>
+                    <a id="register-text" href="#sign-in">REGISTER</a>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-button" href="#Deals">DEALS</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href="#Pizzaa">PIZZAS</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href="#Melts">MELTS</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href="#Sides">SIDES</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href="#wings">WINGS</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href="#Pastas">PASTAS</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href="#salads">SALADS</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href="#Sandwiches">SANDWICHES</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href="#desserts">DESSERTS</a>
+                    </li>
+                    <li>
+                        <a class="nav-button" href="#Drinks">DRINKS</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="menu-card">
+                    <div class="item-image-container">
+                        <img class="item-image" src="https://d2l1qb2xg9gi7w.cloudfront.net/qa/images/Website/tuna8738.png" alt="pizza">
+                    </div>
+                    <div class="item-title-container">
+                        <h3 class="item-title">Tuna Pizza</h3>
+                        <h3 class="item-price">7.99$</h2>
+                    </div>
+                    <div class="item-ingredients-container">
+                        <h5 class="item-ingredients">
+                            A delicious combination of Tuna, green pepper, garlic and black olives loaded on a tomato base and topped with melting mozzarella cheese
+                        </h5>
+                    </div>
+                    <div class="size-and-crust">
+                        <h3 id="selector-label">Select Size & Crust</h3>
+                        <div class="selectors-container">
+                            <select name="size" class="size-select">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large" selected>Large</option>
+                            </select>
+                            <select name="crust" class="crust-select">
+                                <option value="pan" selected>Pan</option>
+                                <option value="thin-n-crispy">Thin N Crispy</option>
+                                <option value="san-fransisco">San Frnasisco</option>
+                                <option value="stuffed-crust">Stuffed Crust</option>
+                                <option value="cheesy-bites">Cheesy Bites</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-container">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+        
+        
+            </div>
+            <div class="grid-item">
+                <div class="menu-card">
+                    <div class="item-image-container">
+                        <img class="item-image" src="https://d2l1qb2xg9gi7w.cloudfront.net/qa/images/Website/spicy-chicken-ranch4791.png" alt="pizza">
+                    </div>
+                    <div class="item-title-container">
+                        <h3 class="item-title">SPICY CHICKEN</h3>
+                        <h3 class="item-price">7.99$</h2>
+                    </div>
+                    <div class="item-ingredients-container">
+                        <h5 class="item-ingredients">
+                            A grilled chicken pizza with ranch sauce, sliced mushroom, pickled jalapeno chopped, tomato, chopped garlic, drizzle of peri peri sauce.
+                        </h5>
+                    </div>
+                    <div class="size-and-crust">
+                        <h3 id="selector-label">Select Size & Crust</h3>
+                        <div class="selectors-container">
+                            <select name="size" class="size-select">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large" selected>Large</option>
+                            </select>
+                            <select name="crust" class="crust-select">
+                                <option value="pan" selected>Pan</option>
+                                <option value="thin-n-crispy">Thin N Crispy</option>
+                                <option value="san-fransisco">San Frnasisco</option>
+                                <option value="stuffed-crust">Stuffed Crust</option>
+                                <option value="cheesy-bites">Cheesy Bites</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-container">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>            
+            </div>
+            <div class="grid-item">
+                <div class="menu-card">
+                    <div class="item-image-container">
+                        <img class="item-image" src="https://d2l1qb2xg9gi7w.cloudfront.net/qa/images/Website/prawn-ph2344.png" alt="pizza">
+                    </div>
+                    <div class="item-title-container">
+                        <h3 class="item-title">
+                            PRAWN</h3>
+                        <h3 class="item-price">7.99$</h2>
+                    </div>
+                    <div class="item-ingredients-container">
+                        <h5 class="item-ingredients">
+                            A delicious combination of Prawn, green pepper, garlic and black olives loaded on a tomato base and topped with melting mozzarella cheese
+                        </h5>
+                    </div>
+                    <div class="size-and-crust">
+                        <h3 id="selector-label">Select Size & Crust</h3>
+                        <div class="selectors-container">
+                            <select name="size" class="size-select">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large" selected>Large</option>
+                            </select>
+                            <select name="crust" class="crust-select">
+                                <option value="pan" selected>Pan</option>
+                                <option value="thin-n-crispy">Thin N Crispy</option>
+                                <option value="san-fransisco">San Frnasisco</option>
+                                <option value="stuffed-crust">Stuffed Crust</option>
+                                <option value="cheesy-bites">Cheesy Bites</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-container">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="grid-item">
+                <div class="menu-card">
+                    <div class="item-image-container">
+                        <img class="item-image" src="https://d2l1qb2xg9gi7w.cloudfront.net/qa/images/Website/vegetarian-ph3596.png" alt="pizza">
+                    </div>
+                    <div class="item-title-container">
+                        <h3 class="item-title">VEGETARIAN</h3>
+                        <h3 class="item-price">7.99$</h2>
+                    </div>
+                    <div class="item-ingredients-container">
+                        <h5 class="item-ingredients">
+                            Our famous, combination of Green pepper, mushroom, onion, black olives and tomato loaded on a tomato base and topped with melting mozzarella cheese
+                        </h5>
+                    </div>
+                    <div class="size-and-crust">
+                        <h3 id="selector-label">Select Size & Crust</h3>
+                        <div class="selectors-container">
+                            <select name="size" class="size-select">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large" selected>Large</option>
+                            </select>
+                            <select name="crust" class="crust-select">
+                                <option value="pan" selected>Pan</option>
+                                <option value="thin-n-crispy">Thin N Crispy</option>
+                                <option value="san-fransisco">San Frnasisco</option>
+                                <option value="stuffed-crust">Stuffed Crust</option>
+                                <option value="cheesy-bites">Cheesy Bites</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-container">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="grid-item">
+                <div class="menu-card">
+                    <div class="item-image-container">
+                        <img class="item-image" src="https://d2l1qb2xg9gi7w.cloudfront.net/qa/images/Website/margarita8289.png" alt="pizza">
+                    </div>
+                    <div class="item-title-container">
+                        <h3 class="item-title">MARGARITA</h3>
+                        <h3 class="item-price">7.99$</h2>
+                    </div>
+                    <div class="item-ingredients-container">
+                        <h5 class="item-ingredients">
+                            Without pizza topping loaded on a tomato base and topped with melting mozzarella cheese               
+                        </h5>
+                    </div>
+                    <div class="size-and-crust">
+                        <h3 id="selector-label">Select Size & Crust</h3>
+                        <div class="selectors-container">
+                            <select name="size" class="size-select">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large" selected>Large</option>
+                            </select>
+                            <select name="crust" class="crust-select">
+                                <option value="pan" selected>Pan</option>
+                                <option value="thin-n-crispy">Thin N Crispy</option>
+                                <option value="san-fransisco">San Frnasisco</option>
+                                <option value="stuffed-crust">Stuffed Crust</option>
+                                <option value="cheesy-bites">Cheesy Bites</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-container">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="grid-item">
+                <div class="menu-card">
+                    <div class="item-image-container">
+                        <img class="item-image" src="https://d2l1qb2xg9gi7w.cloudfront.net/qa/images/Website/seafood-ph9375.png" alt="pizza">
+                    </div>
+                    <div class="item-title-container">
+                        <h3 class="item-title">SEAFOOD</h3>
+                        <h3 class="item-price">7.99$</h2>
+                    </div>
+                    <div class="item-ingredients-container">
+                        <h5 class="item-ingredients">
+                            The ultimate seafood Prawn, tuna, garlic and Parsley flakes loaded on a tomato base and topped with mozzarella cheese
+                        </h5>
+                    </div>
+                    <div class="size-and-crust">
+                        <h3 id="selector-label">Select Size & Crust</h3>
+                        <div class="selectors-container">
+                            <select name="size" class="size-select">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large" selected>Large</option>
+                            </select>
+                            <select name="crust" class="crust-select">
+                                <option value="pan" selected>Pan</option>
+                                <option value="thin-n-crispy">Thin N Crispy</option>
+                                <option value="san-fransisco">San Frnasisco</option>
+                                <option value="stuffed-crust">Stuffed Crust</option>
+                                <option value="cheesy-bites">Cheesy Bites</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-container">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                    
+            </div>
+            <div class="grid-item">
+                <div class="menu-card">
+                    <div class="item-image-container">
+                        <img class="item-image" src="https://d2l1qb2xg9gi7w.cloudfront.net/qa/images/Website/hawaiin-ph9500.png" alt="pizza">
+                    </div>
+                    <div class="item-title-container">
+                        <h3 class="item-title">HAWAIIN</h3>
+                        <h3 class="item-price">7.99$</h2>
+                    </div>
+                    <div class="item-ingredients-container">
+                        <h5 class="item-ingredients">
+                            Our famous, combination of Beef peperoni and pineapple loaded on a tomato base and topped with melting mozzarella cheese
+                        </h5>
+                    </div>
+                    <div class="size-and-crust">
+                        <h3 id="selector-label">Select Size & Crust</h3>
+                        <div class="selectors-container">
+                            <select name="size" class="size-select">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large" selected>Large</option>
+                            </select>
+                            <select name="crust" class="crust-select">
+                                <option value="pan" selected>Pan</option>
+                                <option value="thin-n-crispy">Thin N Crispy</option>
+                                <option value="san-fransisco">San Frnasisco</option>
+                                <option value="stuffed-crust">Stuffed Crust</option>
+                                <option value="cheesy-bites">Cheesy Bites</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-container">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="grid-item">
+                <div class="menu-card">
+                    <div class="item-image-container">
+                        <img class="item-image" src="https://d2l1qb2xg9gi7w.cloudfront.net/qa/images/Website/pepproni-ph1818.png" alt="pizza">
+                    </div>
+                    <div class="item-title-container">
+                        <h3 class="item-title">PEPPERONI</h3>
+                        <h3 class="item-price">7.99$</h2>
+                    </div>
+                    <div class="item-ingredients-container">
+                        <h5 class="item-ingredients">
+                            Our all time specialities Beef pepperoni loaded on a tomato base and topped with melting mozzarella cheese
+                        </h5>
+                    </div>
+                    <div class="size-and-crust">
+                        <h3 id="selector-label">Select Size & Crust</h3>
+                        <div class="selectors-container">
+                            <select name="size" class="size-select">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large" selected>Large</option>
+                            </select>
+                            <select name="crust" class="crust-select">
+                                <option value="pan" selected>Pan</option>
+                                <option value="thin-n-crispy">Thin N Crispy</option>
+                                <option value="san-fransisco">San Frnasisco</option>
+                                <option value="stuffed-crust">Stuffed Crust</option>
+                                <option value="cheesy-bites">Cheesy Bites</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-container">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
