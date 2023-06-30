@@ -239,3 +239,11 @@ body{
     border-bottom: 1px solid #313131;
     padding-bottom: 0;
 }
+
+.grid-item:hover .item-image{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.item-image{
+    transition: all 0.5s ease-in-out;
+}
